@@ -23,9 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5758FDAB1A4DD52800C9CD15 /* cube.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; name = cube.mtl; path = ../source/cube.mtl; sourceTree = "<group>"; };
+		5758FDAC1A4DD52800C9CD15 /* cube.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = cube.obj; path = ../source/cube.obj; sourceTree = "<group>"; };
 		57CE5EE31A4BB88100736166 /* blender2opengles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = blender2opengles; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CE5EE61A4BB88100736166 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		57CE5EED1A4BBC0800736166 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				57CE5EE61A4BB88100736166 /* main.cpp */,
-				57CE5EED1A4BBC0800736166 /* cube.obj */,
+				5758FDAB1A4DD52800C9CD15 /* cube.mtl */,
+				5758FDAC1A4DD52800C9CD15 /* cube.obj */,
 			);
 			path = blender2opengles;
 			sourceTree = "<group>";
